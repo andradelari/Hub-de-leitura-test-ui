@@ -1,3 +1,7 @@
+///<reference types="cypress"/>
+
+
+
 describe('Funcionaladide: Contato', () => {
 
   beforeEach(() => {
