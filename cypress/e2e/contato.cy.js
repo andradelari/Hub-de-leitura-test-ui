@@ -2,7 +2,7 @@
 
 
 
-describe('Funcionaladide: Contato', () => {
+describe('Funcionalidade: Contato', () => {
 
   beforeEach(() => {
     cy.visit('/index.html')

@@ -38,4 +38,17 @@ describe('Funcionalidade: Cadastro no Hub de leitura ', () => {
 
         });
 
+        it.only('Deve preencher cadastro com sucesso - Usando comando customizado', () => {
+            let email = faker.internet.email()
+            cy.preencherCadastro(
+                'Larissa',
+                email,
+                '11365236986',
+                'Teste@123',
+                'Teste@123'
+
+            )
+            cy.url().should('include', 'dashboard')
+
+        });
 });
