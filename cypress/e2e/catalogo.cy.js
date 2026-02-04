@@ -15,5 +15,6 @@ describe('Funcionalidade: Catálgo de livros ', () => {
         cy.get('.btn-primary').click({ multiple:true })
         
     });
-    
+
+        
 });
